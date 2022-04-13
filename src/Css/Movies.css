@@ -1,0 +1,13 @@
+
+
+.horizontal-line {
+    color: white;
+}
+ul.movies-list {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-row-gap: 50px;
+    margin: 50px;
+    padding: 50px;
+    list-style-type: none;
+}
